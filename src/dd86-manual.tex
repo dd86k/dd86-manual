@@ -10,24 +10,26 @@
    /Author (dd86k)
    /Title  (DD/86 Technical Reference Manual)
    /Subject (x86 IBM Emulator and Emulation Layer)
-   /Keywords (dd86)
-   /Producer (LaTeX)
+   /Keywords (dd86,emulator,dos)
+   /Producer (pdflatex)
 }
+
+\renewcommand{\familydefault}{\sfdefault}
 
 \title{DD/86 Technical Reference Manual}
 \author{dd86k}
-\date{April 2019}
+
+%
+% Document start
+%
 
 \begin{document}
 
 \maketitle
 
-\tableofcontents
+\large\tableofcontents
 
 \input{preface}
-
-% Main matter
-\setcounter{tocdepth}{3}
 
 \input{intro}
 \input{cli-init}

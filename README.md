@@ -9,8 +9,5 @@ Current phase: Learning basics
 Please note that this project will remain license-less as long as I'm learning
 LaTeX and writing the manual.
 
-# Setup
-
-Currently using MikLaTeX (packages: url) and generating PDFs with `pdflatex`.
-To compile a PDF, switch to the src folder, and execute
-`pdflatex dd86-manual.tex`.
+A daily build (midnight UTC-05) is available [here](https://dd86k.space/docs/drafts/dd86-manual.pdf).
+The original manual is available [here](https://dd86k.space/docs/dd86-manual.pdf).
