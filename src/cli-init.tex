@@ -1,0 +1,11 @@
+\chapter{CLI and Initialization}
+
+Before the emulator initiates, the command-line interface phase ensures the program is
+properly setup according to user input, if any. If possible, any possible errors are detected
+and returned before module initialization.
+\\\\
+After the command-line interface phase, DD/86 initiates the virtual micro-processor,
+console library, virtual DOS and virtual video adapter modules.
+\\\\
+By default, DD/86 enters an interactive session, into its virtual shell within vDOS. If a file is
+specified, then DD/86 runs the specified program until it exists.

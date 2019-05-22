@@ -14,22 +14,23 @@
    /Producer (LaTeX)
 }
 
-\begin{document}
-
 \title{DD/86 Technical Reference Manual}
 \author{dd86k}
 \date{April 2019}
 
-% \title won't show it so do a part
-\part*{DD/86 Technical Reference Manual}
+\begin{document}
+
+\maketitle
 
 \tableofcontents
 
 \input{preface}
 
 % Main matter
+\setcounter{tocdepth}{3}
 
 \input{intro}
+\input{cli-init}
 
 %\appendix
 
