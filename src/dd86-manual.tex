@@ -4,8 +4,7 @@
 %
 
 \documentclass[12pt,a4paper]{book}
-\usepackage{url,hyperref}
-\usepackage{hyperref}
+\usepackage{url,hyperref,listing,alltt,courier}
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -15,9 +14,9 @@
 }
 
 \pdfinfo{
-   /Author (dd86k)
-   /Title  (DD/86 Technical Reference Manual)
-   /Subject (x86 IBM Emulator and Emulation Layer)
+   /Author   (dd86k)
+   /Title    (DD/86 Technical Reference Manual)
+   /Subject  (x86 IBM Emulator and Emulation Layer)
    /Keywords (dd86,emulator,dos)
    /Producer (pdflatex)
 }
@@ -37,10 +36,10 @@
 
 \large\tableofcontents
 
-\input{preface}
+\input{src/preface}
 
-\input{intro}
-\input{cli-init}
+\input{src/intro}
+\input{src/cli-init}
 
 %\appendix
 
